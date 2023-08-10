@@ -54,11 +54,11 @@
 
 <style>
   header {
-    background-image: url("images/bg-header-desktop.svg");
+    background-image: url("../public/images/bg-header-desktop.svg");
   }
   @media screen and (max-width: 600px) {
     header {
-      background-image: url("images/bg-header-mobile.svg");
+      background-image: url("../public/images/bg-header-mobile.svg");
     }
   }
 </style>

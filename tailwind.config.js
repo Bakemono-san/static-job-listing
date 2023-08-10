@@ -7,12 +7,11 @@ export default {
     "./src/**/*.{svelte,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend:{
       backgroungImage:{
-        'desktop':"url('/images/bg-header-dektop.svg')",
-        'mobile':"url('images/bg-header-mobile.svg')",
+        'desktop':"url('public/images/bg-header-dektop.svg')",
+        'mobile':"url('public/images/bg-header-mobile.svg')",
       }
-    },
+    ,
     colors:{
       'header-color':'hsl(180, 29%, 50%)',
       'container-background':'hsl(180, 52%, 96%)',
