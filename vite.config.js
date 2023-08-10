@@ -3,6 +3,6 @@ import { svelte } from '@sveltejs/vite-plugin-svelte'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base:'/static-job-listing/,
+  base:'/static-job-listing/',
   plugins: [svelte()],
 })
