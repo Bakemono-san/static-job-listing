@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .card {
+      @apply flex md:flex-row py-8 flex-col justify-between px-4 gap-4 md:py-3 md:h-min h-full w-full rounded shadow-xl;
+    }
+
+  }
